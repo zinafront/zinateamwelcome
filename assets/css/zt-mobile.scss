@@ -1,0 +1,40 @@
+@media screen and (max-width:600px) {
+  h1 {
+    font-size: 43px !important;
+  }
+  h2 {
+    font-size: 40px !important;
+  }
+  .intro--banner {
+    height: 300px;
+  }
+  .l-section {
+    margin-top: 12.5%;
+    height: auto;
+    &#section1 {
+      height: 85%;
+    }
+    .contentDiv {
+      width:95%;
+      max-width: 95%;
+      margin: 0 auto;
+    }
+  }
+  .slideUnit {
+    flex-direction: column;
+    margin-top: 1em !important;
+    .paragraphText {
+      line-height: 1.4 !important;
+      margin: 0 !important;
+      width: 100% !important;
+    }
+    .paragraphImage {
+      margin: 0 auto !important;
+    }
+  }
+  .rslides_tabs {
+    margin-top: 1em !important;
+  } 
+}
+
+ 
